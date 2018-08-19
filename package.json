@@ -1,0 +1,19 @@
+{
+  "name": "grade-git",
+  "description": "A module that checks the current repo has good git repo hygiene",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Aghassi/grade-git.git",
+  "author": "David Aghassi <david.aghassi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "husky": "^1.0.0-rc.13"
+  },
+  "husky": {
+    "hooks": {
+      "commitmsg": "commitlint -E GIT_PARAMS"
+    }
+  }
+}
