@@ -7,9 +7,9 @@
   "author": "David Aghassi <david.aghassi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^7.0.0",
-    "@commitlint/config-conventional": "^7.0.1",
-    "husky": "^1.0.0-rc.13"
+    "@commitlint/cli": "7.0.0",
+    "@commitlint/config-conventional": "7.0.1",
+    "husky": "1.0.0-rc.13"
   },
   "commitlint": {
     "extends": [
