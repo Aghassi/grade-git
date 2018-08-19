@@ -15,10 +15,10 @@
   "devDependencies": {
     "@commitlint/cli": "7.0.0",
     "@commitlint/config-conventional": "7.0.1",
-    "@oclif/dev-cli": "^1",
+    "@oclif/dev-cli": "1.17.0",
     "eslint": "5.4.0",
-    "eslint-config-oclif": "^1",
-    "globby": "^8",
+    "eslint-config-oclif": "1.5.1",
+    "globby": "8.0.1",
     "husky": "1.0.0-rc.13"
   },
   "engines": {
