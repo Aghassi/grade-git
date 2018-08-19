@@ -20,5 +20,10 @@
     "hooks": {
       "commitmsg": "commitlint -E GIT_PARAMS"
     }
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ]
   }
 }
