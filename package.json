@@ -17,7 +17,7 @@
     "@commitlint/config-conventional": "7.0.1",
     "@oclif/dev-cli": "1.17.0",
     "eslint": "5.4.0",
-    "eslint-config-oclif": "1.5.1",
+    "eslint-config-oclif": "2.0.0",
     "globby": "8.0.1",
     "husky": "1.0.0-rc.13"
   },
