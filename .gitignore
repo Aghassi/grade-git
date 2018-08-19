@@ -1,3 +1,10 @@
+# OCliff
+*-debug.log
+*-error.log
+/tmp
+/dist
+/.nyc_output
+/package-lock.json
 
 # Created by https://www.gitignore.io/api/node,intellij,sublimetext,visualstudiocode
 
