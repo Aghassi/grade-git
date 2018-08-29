@@ -13,8 +13,8 @@
     "@oclif/plugin-help": "^2"
   },
   "devDependencies": {
-    "@commitlint/cli": "7.0.0",
-    "@commitlint/config-conventional": "7.0.1",
+    "@commitlint/cli": "7.1.1",
+    "@commitlint/config-conventional": "7.1.1",
     "@oclif/dev-cli": "1.17.0",
     "eslint": "5.4.0",
     "eslint-config-oclif": "2.0.0",
