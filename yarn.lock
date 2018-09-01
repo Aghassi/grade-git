@@ -152,22 +152,29 @@
     debug "^3.1.0"
     semver "^5.5.0"
 
-"@oclif/config@^1", "@oclif/config@^1.7.0":
+"@oclif/config@^1":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.7.0.tgz#deb465093d10a1ee802cca7580cd2d33f78d9d60"
   dependencies:
     debug "^3.1.0"
     tslib "^1.9.3"
 
-"@oclif/dev-cli@1.17.0":
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.17.0.tgz#b7af28a79f792f5981c43e104a667dfb5df28595"
+"@oclif/config@^1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.7.4.tgz#5b7f779534a339de8c62a863b12f5740b15c41f5"
+  dependencies:
+    debug "^3.1.0"
+    tslib "^1.9.3"
+
+"@oclif/dev-cli@1.18.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.18.0.tgz#729f8530dd183b2cbb9f92d6caee5ec5b490b5b5"
   dependencies:
     "@oclif/command" "^1.5.0"
-    "@oclif/config" "^1.7.0"
+    "@oclif/config" "^1.7.4"
     "@oclif/errors" "^1.2.0"
-    "@oclif/plugin-help" "^2.1.0"
-    cli-ux "^4.8.0"
+    "@oclif/plugin-help" "^2.1.1"
+    cli-ux "^4.8.1"
     debug "^3.1.0"
     fs-extra "^7.0.0"
     lodash "^4.17.10"
@@ -197,7 +204,7 @@
     chalk "^2.4.1"
     tslib "^1.9.3"
 
-"@oclif/plugin-help@^2", "@oclif/plugin-help@^2.1.0":
+"@oclif/plugin-help@^2":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.1.0.tgz#eb0748904558b8e379416ab3ef7bbefed2151348"
   dependencies:
@@ -208,6 +215,18 @@
     string-width "^2.1.1"
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
+
+"@oclif/plugin-help@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.1.1.tgz#5bce32a8a9795827e4f0c6f18c3ff30010130e18"
+  dependencies:
+    "@oclif/command" "^1.5.0"
+    chalk "^2.4.1"
+    indent-string "^3.2.0"
+    lodash.template "^4.4.0"
+    string-width "^2.1.1"
+    widest-line "^2.0.0"
+    wrap-ansi "^4.0.0"
 
 "@oclif/screen@^1.0.2":
   version "1.0.2"
@@ -522,10 +541,11 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-ux@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.8.0.tgz#4013e177bfb6a2138565c071ef99f4a13e1cab20"
+cli-ux@^4.8.1:
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.8.1.tgz#aaaf3d9f0d48310955a208467800325fdeb67b7f"
   dependencies:
+    "@oclif/errors" "^1.2.0"
     "@oclif/linewrap" "^1.0.0"
     "@oclif/screen" "^1.0.2"
     ansi-styles "^3.2.1"
@@ -539,9 +559,9 @@ cli-ux@^4.8.0:
     is-wsl "^1.1.0"
     lodash "^4.17.10"
     password-prompt "^1.0.7"
-    semver "^5.5.0"
+    semver "^5.5.1"
     strip-ansi "^4.0.0"
-    supports-color "^5.4.0"
+    supports-color "^5.5.0"
     supports-hyperlinks "^1.0.1"
 
 cli-width@^2.0.0:
@@ -2215,7 +2235,7 @@ semver-compare@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
 
-"semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0:
+"semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1:
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
 
@@ -2410,9 +2430,15 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-supports-color@^5.0.0, supports-color@^5.2.0, supports-color@^5.3.0, supports-color@^5.4.0:
+supports-color@^5.0.0, supports-color@^5.2.0, supports-color@^5.3.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
+  dependencies:
+    has-flag "^3.0.0"
+
+supports-color@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   dependencies:
     has-flag "^3.0.0"
 
@@ -2599,6 +2625,14 @@ wrap-ansi@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
   dependencies:
+    string-width "^2.1.1"
+    strip-ansi "^4.0.0"
+
+wrap-ansi@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-4.0.0.tgz#b3570d7c70156159a2d42be5cc942e957f7b1131"
+  dependencies:
+    ansi-styles "^3.2.0"
     string-width "^2.1.1"
     strip-ansi "^4.0.0"
 
