@@ -18,7 +18,7 @@
     "@oclif/dev-cli": "1.19.2",
     "eslint": "5.9.0",
     "eslint-config-oclif": "3.1.0",
-    "globby": "8.0.1",
+    "globby": "9.0.0",
     "husky": "1.2.0"
   },
   "engines": {
